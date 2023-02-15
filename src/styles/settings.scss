@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import "./mixins/mixins.scss";
+
+:root {
+  /* COLOR PALETTE */
+
+  --color-bg-main: rgb(1, 21, 48);
+  --color-bg-second: rgb(82, 136, 206);
+  --color-bg-footer: rgb(29, 42, 53);
+  --color-bg-navbar: rgb(1, 62, 107);
+  --color-bg-navbarSearch: rgb(2, 85, 144);
+  --color-bg-card: rgb(53, 105, 173);
+
+  --color-title: rgb(241, 241, 241);
+  --color-main: rgb(231, 229, 229);
+  --color-second: rgb(77, 77, 77);
+  --color-dark-title: #5b9bfb;
+  --color-dark-main: rgb(255, 255, 255);
+  --color-dark-second-: rgb(248, 248, 248);
+  --color-navbar: rgb(248, 248, 248);
+  --color-navbar-hover: rgb(180, 180, 180);
+
+  /* FONTS */
+
+  /* font: font-style font-variant font-weight font-size/line-height font-family */
+
+  --font-headline-1: normal normal 300 60px / normal "Roboto", sans-serif;
+  --font-headline-2: normal normal normal 50px / normal "Roboto", sans-serif;
+  --font-headline-3: normal normal normal 35px / normal "Roboto", sans-serif;
+  --font-headline-4: normal normal normal 20px / normal "Roboto", sans-serif;
+  --font-headline-5: normal normal 400 16px / normal "Roboto", sans-serif;
+  --font-headline-6: normal normal normal 14px / normal "Roboto", sans-serif;
+  --font-body-1: normal normal normal 17px / 23px "Roboto", sans-serif;
+  --font-body-2: normal normal normal 15px / normal "Roboto", sans-serif;
+  --font-body-3: normal normal normal 12px / normal "Roboto", sans-serif;
+  --font-label-1: normal normal 600 13px / normal "Roboto", sans-serif;
+
+  @include small-screen() {
+    --font-headline-1: normal normal 300 40px / normal "Roboto", sans-serif;
+    --font-headline-2: normal normal normal 35px / normal "Roboto", sans-serif;
+    --font-headline-3: normal normal normal 30px / normal "Roboto", sans-serif;
+    --font-headline-4: normal normal normal 20px / normal "Roboto", sans-serif;
+    --font-body-1: normal normal normal 15px / 23px "Roboto", sans-serif;
+    --font-body-2: normal normal normal 13px / normal "Roboto", sans-serif;
+  }
+
+  /* GLOBAL PROPERTIES */
+
+  --transition-cubic: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  --navbar-height: 65px;
+
+  @include extra-small-screen() {
+    --navbar-height: 100px;
+  }
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Bastardos Sin Gloria",
+        "year": 2009,
+        "genre": "Belico",
+        "duration": 153,
+        "description": "Inglourious Basterds es una película de 2009 escrita y dirigida por Quentin Tarantino y protagonizada por Brad Pitt, Christoph Waltz y Mélanie Laurent. Titulada Bastardos Sin Gloria en Hispanoamérica, la película es una ficción ucrónica sobre la Alemania nazi.",
+        "imagePath": "/images/movies/bastardos_sin_gloria.png",
+        "created_at": "Timestamp"
+    },
+    {
+        "title": "El viaje de Chihiro",
+        "year": 2001,
+        "genre": "Fantasia",
+        "duration": 125,
+        "description": "Chihiro es una niña caprichosa que debe adentrarse en un mundo de fantasía para poder salvar a sus padres, convertidos en cerdos.",
+        "imagePath": "/images/movies/el_viaje_de_chihiro.jpg",
+        "created_at": "Timestamp"
+    },
+    {
+        "title": "El señor de los anillos: La comunidad del anillo",
+        "year": 2001,
+        "genre": "Aventura",
+        "duration": 178,
+        "description": "Frodo Bolsón es un hobbit al que su tío Bilbo hace portador del poderoso Anillo Único, capaz de otorgar un poder ilimitado al que la posea, con la finalidad de destruirlo. Sin embargo, fuerzas malignas muy poderosas quieren arrebatárselo.",
+        "imagePath": "/images/movies/el_señor_de_los_anillos_la_comunidad_del_anillo.jpg",
+        "created_at": "Timestamp"
+    },
+    {
+        "title": "Avatar",
+        "year": 2009,
+        "genre": "Ciencia ficción",
+        "duration": 162,
+        "description": "Ambientada en el año 2154, narra los acontecimientos de Pandora, una luna habitada por una especie humanoide llamada na'vi con la que los humanos se encuentran en conflicto debido a un mineral muy cotizado.",
+        "imagePath": "/images/movies/avatar.jpg",
+        "created_at": "Timestamp"
+    }
+]
