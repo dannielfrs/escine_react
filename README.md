@@ -104,5 +104,5 @@ El diseño de la aplicación esta hecho con Bootstrap 5, además cuenta con esti
 
 ## Usuario de prueba
 
-Usuario: daniel
-Contraseña: 1234
+- Usuario: `daniel` || Contraseña: `1234`
+- Usuario: `juanito` || Contraseña: `1234`
